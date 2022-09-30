@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features {
+  position: relative;
+  text-align: center;
+  padding: 8% 15%;
+  z-index: 3;
+  background-color: white;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  padding-top: 0;
+  margin-bottom: -200px;
+  position: relative;
+}
+
+/* Icons */
+.icon {
+  color: #ef8172;
+  font-size: 3rem;
+  padding: 0 0 3%;
+}
+
+.feat-p {
+  color: #8f8f8f;
+  padding: 0 0 10%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.h3-cta {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.p-footer {
+  color: #8f8f8f;
+}
+
+.icon-footer {
+  padding: 3% 2%;
+}
+
+@media (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
